@@ -206,6 +206,7 @@ const talking = ref<'open' | 'closed'>('closed')
 const blinkTimer = 100
 const talkRate = 120
 
+
 onMounted(() => {
   let timerId = setInterval(() => {
     let blinkState = 0
